@@ -8,6 +8,7 @@
 # Xpath分析
 整个程序的核心在与Xpath分析。进入检查页面，我们发现所有信息都在ul标签下的div下，我们可以通过复制xpath路径来获取代码路径。
 有了路径在python中分析就容易多了
+
 1）房名
 
 //*[@id="content"]/div[1]/div[1]/div/div/p[1]/a/text()
